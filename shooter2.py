@@ -200,5 +200,6 @@ while run:
             asteroid = Enemy(img_ast, randint(30, win_width - 30), -40, 80, 50, randint(1, 7))
             asteroids.add(asteroid)
  
-time.delay(50)
+    pygame.time.delay(350)
+
 
